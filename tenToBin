@@ -1,7 +1,3 @@
-#! /Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-
-import sys
-
 def main(a):
     power = 0
     numStr = ''
@@ -15,4 +11,3 @@ def main(a):
             numStr += '0'
         power -= 1
     return int(numStr)
-print(main(int(sys.argv[1])))
