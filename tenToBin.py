@@ -1,4 +1,5 @@
 def main(a):
+    'Takes a positive int in base ten and returns the binary with an equal value'
     power = 0
     numStr = ''
     while 2 ** (power + 1) < a:
