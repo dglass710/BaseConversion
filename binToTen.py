@@ -1,5 +1,5 @@
 def main(a):
-    'Takes a binary and returns an int of equal value'
+    'Takes a binary as an int and returns an int of equal value in base ten'
     for char in str(a):
         if char not in ('0', '1'):
             raise Exception(f'This number contains the digit {char} which is not 0 or 1')
