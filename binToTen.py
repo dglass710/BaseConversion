@@ -1,7 +1,3 @@
-#! /Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-
-import sys
-
 def main(a):
     'Takes a binary and returns an int of equal value'
     for char in str(a):
@@ -13,4 +9,3 @@ def main(a):
         aBaseTen += 2 ** power * int(digit)
         power += 1
     return aBaseTen 
-print(main(sys.argv[1]))
